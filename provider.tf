@@ -3,6 +3,7 @@ provider "google" {
 }
 
 terraform {
+	credentials = file(""~/Documents/GitHub/omerkha/sa_kay.json")
 	required_providers {
 		google = {
 	    version = "~> 3.86.0"

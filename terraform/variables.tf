@@ -9,8 +9,10 @@ variable "provider_region" {
 
 variable "static_content_bucket_name" {
   type = string
+  default = "site-bucket-takeoffhandbook"
 }
 
 variable "managed_domain" {
   type = string
+  default = "takeoffenghandbook"
 }
