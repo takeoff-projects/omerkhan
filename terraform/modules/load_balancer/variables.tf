@@ -20,5 +20,5 @@ variable "managed_zone" {
 
 variable "managed_domain" {
   type = string
-  default="takeoffenghandbook"
+  default = "takeoffenghandbook"
 }
