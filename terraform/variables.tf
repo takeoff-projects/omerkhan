@@ -1,5 +1,6 @@
 variable "project_id" {
   type = string
+  default = "engineering-handbook-lb-forwarding-rule"
 }
 
 variable "provider_region" {

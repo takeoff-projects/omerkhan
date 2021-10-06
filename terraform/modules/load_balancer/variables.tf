@@ -10,7 +10,7 @@ variable "static_content_bucket_name" {
 
 variable "dns_project_id" {
   type    = string
-  default = "roi-takeoff-user95"
+  default = "sandbox-20211005-46ytg6"
 }
 
 variable "managed_zone" {

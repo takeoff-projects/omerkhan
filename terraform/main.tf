@@ -13,8 +13,8 @@ provider "google-beta" {
 
 resource "google_storage_bucket" "takeoffhandbook" {
   location                    = "US-EAST1"
-  name                        = "site-bucket-takeoffhandbook"
-  project                     = "roi-takeoff-user95"
+  name                        = var.static_content_bucket_name
+  project                     = var.project_id
   uniform_bucket_level_access = "true"
 
   website {
